@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 // 使用您提供的最新 Firebase 配置 (woodboss-af2a7)
 const firebaseConfig = {
-  apiKey: "AIzaSyAUAWcpOwm_FQhumVMpqcRVJauWDelfY2A",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "woodboss-af2a7.firebaseapp.com",
   projectId: "woodboss-af2a7",
   storageBucket: "woodboss-af2a7.firebasestorage.app",
