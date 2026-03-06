@@ -1,0 +1,7 @@
+{
+  "name": "帝王木重生計時器",
+  "description": "專業的 BOSS 重生追蹤系統，支持多頻道獨立計時、自定義擊殺時間登記以及到時音效提醒。",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
