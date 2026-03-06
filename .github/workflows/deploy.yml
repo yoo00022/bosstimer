@@ -1,8 +1,8 @@
-name: Deploy Vite site to Pages
+name: Deploy bossTimer to Pages
 
 on:
   push:
-    branches: ["main"] # 確保這與您的主分支名稱一致
+    branches: ["main"] # 如果您的主分支叫 master，請改為 master
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # Vite 預設輸出的資料夾
+          path: ./dist
 
   deploy:
     environment:
