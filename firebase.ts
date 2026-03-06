@@ -3,7 +3,7 @@
 // in certain TypeScript/bundler configurations while maintaining compatibility with the v9 modular SDK.
 import * as firebase from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-
+//
 // 使用您提供的最新 Firebase 配置 (woodboss-af2a7)
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
