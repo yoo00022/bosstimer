@@ -1,5 +1,5 @@
 {
-  "name": "bossTimer",
+  "name":"bossTimer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
