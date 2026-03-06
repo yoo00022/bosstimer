@@ -2,7 +2,7 @@ name: Deploy bossTimer to Pages
 
 on:
   push:
-    branches: ["main"] # 如果您的主分支叫 master，請改為 master
+    branches: ["main"] 
 
 permissions:
   contents: read
@@ -19,9 +19,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # 這裡刪除了 cache 設定，避免報錯
       - name: Install dependencies
-        run: npm install
+        run: npm install # 這裡會自動產生臨時鎖定檔
       - name: Build
         run: npm run build
       - name: Upload artifact
